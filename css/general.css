@@ -101,13 +101,18 @@
     }
     .header__items{
         border-bottom: 1px solid white;
+        width: 100%;
+        padding: 0;
     }
     .header__items--selected{
         border-radius: 5px;
         box-shadow: 0 0 0 0;
     }
     .header__links{
+        display: block;
         font-size: 1.5rem;
+        width: 100%;
+    
     }
     .header__items:hover{
         background-color:rgb(8, 8, 89);
@@ -175,7 +180,7 @@
  }
  .bottom-text{
     width:100%;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     border-top: 1px solid white;
     background-color: rgb(6, 8, 21);
     text-align: center;
